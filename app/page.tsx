@@ -1,6 +1,7 @@
 // Real Lusion-derived chrome (pill nav, corner-plus framing, canvas-panel hero,
 // restrained-weight type) — from live recon 2026-07-09, docs/research/PAGE_TOPOLOGY.md.
 // Brand: Sultan's gold (#C9A24B), NOT Lusion's blue/white/black — craft, not copy.
+import Hero3D from "@/components/Hero3D";
 
 export default function Home() {
   return (
@@ -41,11 +42,12 @@ export default function Home() {
             <span className="absolute bottom-4 left-4 text-lg text-white/40">+</span>
             <span className="absolute bottom-4 right-4 text-lg text-white/40">+</span>
 
-            {/* placeholder gold panel content — real 3D hero built next cycle */}
-            <div className="flex h-full items-center justify-center">
+            {/* real Three.js hero — glossy gold primitive cluster (Lusion's stylistic DNA, our brand) */}
+            <Hero3D />
+            <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
               <div className="text-center">
-                <div className="text-5xl font-medium text-[#C9A24B] md:text-7xl">+64%</div>
-                <div className="mt-2 text-xs uppercase tracking-widest text-white/50">рост OTAN за 2 года моей работы</div>
+                <div className="text-5xl font-medium text-[#C9A24B] drop-shadow-[0_2px_20px_rgba(0,0,0,0.5)] md:text-7xl">+64%</div>
+                <div className="mt-2 text-xs uppercase tracking-widest text-white/60 drop-shadow-md">рост OTAN за 2 года моей работы</div>
               </div>
             </div>
 
