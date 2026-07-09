@@ -18,7 +18,8 @@ export default function Home() {
             <a href="#contact" className="rounded-full bg-[#2B2E3A] px-6 py-3 text-sm text-white transition-colors hover:bg-[#3a3e4d]">
               Нанять
             </a>
-            <a href="#about" className="rounded-full bg-[#E4E6EF] px-6 py-3 text-sm text-black transition-colors hover:bg-[#d8dae5]">
+            {/* real Lusion mobile behavior: second pill collapses away below md, single CTA remains */}
+            <a href="#about" className="hidden rounded-full bg-[#E4E6EF] px-6 py-3 text-sm text-black transition-colors hover:bg-[#d8dae5] md:inline-block">
               О себе
             </a>
           </div>
@@ -32,7 +33,8 @@ export default function Home() {
             Маркетинг и рост, которые двигают выручку — не посты и отчёты
           </h1>
 
-          <div className="relative mt-8 aspect-[16/9] w-full overflow-hidden rounded-2xl bg-[#0B0B10] md:aspect-[21/9]">
+          {/* real Lusion mobile behavior: hero panel goes portrait-tall on small screens */}
+          <div className="relative mt-8 aspect-[4/5] w-full overflow-hidden rounded-2xl bg-[#0B0B10] sm:aspect-[16/9] md:aspect-[21/9]">
             {/* corner plus-marks — real Lusion framing device */}
             <span className="absolute left-4 top-4 text-lg text-white/40">+</span>
             <span className="absolute right-4 top-4 text-lg text-white/40">+</span>

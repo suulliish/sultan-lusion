@@ -69,3 +69,17 @@ which is Lusion's brand not Sultan's) so the result reads as "Lusion-caliber cra
 brand" rather than a literal copy. This is both more honest (no trademark/copy risk on Lusion's
 exact blue-cross brand asset) and more valuable (produces something that's actually usable as
 Sultan's site, not a Lusion tribute).
+
+## Mobile responsive sweep (390px, live recon 2026-07-09 ~12:04)
+- Nav collapses: "Let's talk" + "Menu" pills → single circular "⋯" (three-dot) icon button,
+  top-right. Wordmark stays top-left, unchanged.
+- Headline flows full-width below/under the nav row (stacks vertically), not side-by-side.
+- Hero canvas panel becomes PORTRAIT-oriented on mobile (~9:16-ish, tall), not the wide
+  16:9/21:9 used on desktop — takes up most of the viewport height.
+- "SCROLL TO EXPLORE" + corner-plus marks persist at mobile size, same relative position.
+
+## Gap vs current sultan-lusion build
+Current site 4 keeps the desktop two-pill nav pattern at all breakpoints (no mobile collapse)
+and a fixed aspect-[16/9] hero panel regardless of viewport. NEXT CYCLE fix: collapse nav to
+single icon button below md breakpoint, switch hero panel to a taller aspect ratio on mobile
+(e.g. aspect-[3/4] or aspect-[4/5] under sm breakpoint) to match the real reference behavior.
