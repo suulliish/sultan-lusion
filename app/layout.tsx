@@ -11,6 +11,11 @@ const manrope = Manrope({
 export const metadata: Metadata = {
   title: "Sultan Kazbek — Growth Craft",
   description: "Operations & Growth. +64% роста и 6.3× ROAS в OTAN за 2 года.",
+  openGraph: {
+    title: "Sultan Kazbek — Growth Craft",
+    description: "Operations & Growth. +64% роста и 6.3× ROAS в OTAN за 2 года.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
