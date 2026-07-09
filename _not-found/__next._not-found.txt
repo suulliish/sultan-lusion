@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[40862,["/sultan-lusion/_next/static/chunks/131bf8nhm-frh.js"],"default"]
+3:I[71567,["/sultan-lusion/_next/static/chunks/131bf8nhm-frh.js"],"default"]
+4:[]
+0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"if40xxL_yrsuyxNUyC1EL"}
