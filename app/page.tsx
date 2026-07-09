@@ -2,10 +2,12 @@
 // restrained-weight type) — from live recon 2026-07-09, docs/research/PAGE_TOPOLOGY.md.
 // Brand: Sultan's gold (#C9A24B), NOT Lusion's blue/white/black — craft, not copy.
 import Hero3D from "@/components/Hero3D";
+import ScrollFX from "@/components/ScrollFX";
 
 export default function Home() {
   return (
     <div className="min-h-screen">
+      <ScrollFX />
       {/* NAV — pill buttons, wordmark left (real Lusion pattern) */}
       <nav className="sticky top-0 z-50 border-b border-black/5 bg-[#F0F1FA]/90 px-6 py-5 backdrop-blur-md md:px-10">
         <div className="mx-auto flex max-w-6xl items-center justify-between">
@@ -61,7 +63,7 @@ export default function Home() {
       {/* OTAN CASE */}
       <section id="otan" className="px-6 py-24 md:px-10">
         <div className="mx-auto max-w-6xl">
-          <div className="mb-10 flex items-baseline gap-4 border-b border-black/10 pb-5">
+          <div data-reveal className="mb-10 flex items-baseline gap-4 border-b border-black/10 pb-5">
             <span className="text-sm text-[#C9A24B]">01</span>
             <h2 className="text-2xl font-normal md:text-3xl">OTAN</h2>
             <span className="ml-auto text-sm text-black/50">Заместитель директора · 08.2023 — сейчас</span>
@@ -69,7 +71,7 @@ export default function Home() {
           <p className="max-w-2xl text-lg leading-relaxed text-black/70">
             Выстроил полный цикл продукт → упаковка → продажи → логистика → сервис, вывел рекламу в устойчивую прибыль.
           </p>
-          <div className="mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-black/10 bg-black/10 md:grid-cols-4">
+          <div data-reveal className="mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-black/10 bg-black/10 md:grid-cols-4">
             {[
               { n: "90.7M", c: "Выручка 2024, ₸" },
               { n: "6.3×", c: "Средний ROAS" },
@@ -88,7 +90,7 @@ export default function Home() {
       {/* EARLY PROJECTS */}
       <section id="early" className="px-6 py-24 md:px-10">
         <div className="mx-auto max-w-6xl">
-          <div className="mb-10 flex items-baseline gap-4 border-b border-black/10 pb-5">
+          <div data-reveal className="mb-10 flex items-baseline gap-4 border-b border-black/10 pb-5">
             <span className="text-sm text-[#C9A24B]">02</span>
             <h2 className="text-2xl font-normal md:text-3xl">Ранние проекты</h2>
             <span className="ml-auto text-sm text-black/50">2021 — 2022</span>
@@ -115,7 +117,7 @@ export default function Home() {
       {/* PITCH GALLERY */}
       <section id="pitches" className="px-6 py-24 md:px-10">
         <div className="mx-auto max-w-6xl">
-          <div className="mb-6 flex items-baseline gap-4 border-b border-black/10 pb-5">
+          <div data-reveal className="mb-6 flex items-baseline gap-4 border-b border-black/10 pb-5">
             <span className="text-sm text-[#C9A24B]">03</span>
             <h2 className="text-2xl font-normal md:text-3xl">Разборы</h2>
             <span className="ml-auto text-sm text-black/50">20 брендов, самостоятельно</span>
@@ -164,11 +166,11 @@ export default function Home() {
       {/* HONEST COMPARISON */}
       <section id="compare" className="px-6 py-24 md:px-10">
         <div className="mx-auto max-w-6xl">
-          <div className="mb-10 flex items-baseline gap-4 border-b border-black/10 pb-5">
+          <div data-reveal className="mb-10 flex items-baseline gap-4 border-b border-black/10 pb-5">
             <span className="text-sm text-[#C9A24B]">04</span>
             <h2 className="text-2xl font-normal md:text-3xl">Кого вы на самом деле нанимаете</h2>
           </div>
-          <div className="grid gap-3 md:grid-cols-3">
+          <div data-reveal className="grid gap-3 md:grid-cols-3">
             <div className="rounded-2xl border border-black/10 bg-white/50 p-7">
               <div className="text-lg font-medium">Джуниор</div>
               <div className="mt-1 text-xs text-black/40">Дёшево</div>
@@ -204,7 +206,7 @@ export default function Home() {
       {/* METHOD */}
       <section id="method" className="px-6 py-24 md:px-10">
         <div className="mx-auto max-w-6xl">
-          <div className="mb-10 flex items-baseline gap-4 border-b border-black/10 pb-5">
+          <div data-reveal className="mb-10 flex items-baseline gap-4 border-b border-black/10 pb-5">
             <span className="text-sm text-[#C9A24B]">05</span>
             <h2 className="text-2xl font-normal md:text-3xl">Как работаю</h2>
           </div>
@@ -223,7 +225,7 @@ export default function Home() {
       {/* ABOUT */}
       <section id="about" className="px-6 py-24 md:px-10">
         <div className="mx-auto max-w-6xl">
-          <div className="mb-10 flex items-baseline gap-4 border-b border-black/10 pb-5">
+          <div data-reveal className="mb-10 flex items-baseline gap-4 border-b border-black/10 pb-5">
             <span className="text-sm text-[#C9A24B]">06</span>
             <h2 className="text-2xl font-normal md:text-3xl">О себе</h2>
           </div>
